@@ -5,64 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta http-equiv="x-ua-compatible" content="IE=edge">
     <title>test website by klakali</title>
-    <meta name="description" content="HTML/CSS exercise">
+    <meta name="description" content="HTML/CSS">
     <meta name="author" content="klakali">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header id="showcase">
+    <!-- Header Showcase -->
+    <header id="showcase" class="grid">
         <div class="bg-image"></div>
-        <div id="content">
-            <h1>Indonesia</h1>
-            <p>Best travel destination in 2018</p>
+        <div class="content-wrap">
+            <h1>Welcome to Software Academy Solutions</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue malesuada diam ac faucibus. Phasellus imperdiet justo sed lacus porta.</p>
+            <a href="#section-b" class="btn">Read More</a>
         </div>
-    </header>
-    
-    <main>  
-        <div id="section-a"></div>
+    </header> 
+
+    <!-- Main Area -->
+    <main id="main">
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                    <h2 class="content-title">Web & Application Development</h2>
+                <div class="content-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus, mauris sed faucibus faucibus, nisl ligula pulvinar magna, eu semper libero erat vel tellus. Integer in suscipit tortor. Nullam volutpat varius pharetra. Morbi viverra ac quam quis tempor. Aliquam erat.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Section B -->
+        <section id="section-b" class="grid">
             <ul>
                 <li>
-                    <div class="main">
-                        <h1>Lorem ipsum dolor sit amet enim.</h1> 
-                        <h2>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui.</h2>
-                        <p>Lorem ipsum dolor sit amet pede. Duis ornare tortor risus, euismod orci ut mi. Suspendisse diam. Pellentesque nunc. Maecenas bibendum tellus, quis felis sit amet tempor ac, euismod pulvinar, pede bibendum varius ac, mattis ac, magna. Phasellus sagittis malesuada. Ut tempus orci interdum rhoncus, dui eu mauris. Donec viverra luctus, enim arcu id purus at magna urna risus vehicula ullamcorper, risus in nulla facilisis metus. Nullam id arcu. In vehicula ullamcorper, augue sed molestie nulla ante, sagittis lectus sit amet, consectetuer lobortis vitae, lectus. Curabitur arcu vitae massa id purus. Quisque cursus nunc. Integer a blandit non, dictum a, dolor. Morbi mattis lectus sit amet nibh. Phasellus sem. Nulla facilisi. Etiam urna ligula sed felis cursus magna. Nulla diam mi leo ac lacus. Integer erat volutpat. Praesent eu lectus. Phasellus ipsum primis in sapien. Vestibulum scelerisque a, adipiscing justo euismod mi. Aliquam et turpis. Proin scelerisque rhoncus tempor. Suspendisse adipiscing.</p>
-                    </div>
-                </li>
-                <li class="featured">
-                </li>
-            </ul>
-        <div id="section-b"></div>
-        <ul>
-                <li class="main">
-                    <div class="box float">
-                        <h2>Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis.</h2>
-                        <p>Lorem ipsum dolor sit amet pede. Duis ornare tortor risus, euismod orci ut mi.</p> 
-                    </div>
-                    <div class="box float"> 
-                        <h2>Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis.</h2>
-                        <p>Lorem ipsum dolor sit amet pede. Duis ornare tortor risus, euismod orci ut mi.</p> 
-                    </div>
-                    <div class="box float"> 
-                        <h2>Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis.</h2>
-                        <p>Lorem ipsum dolor sit amet pede. Duis ornare tortor risus, euismod orci ut mi.</p> 
-                    </div>                   
-                </li>
-            </ul>
-        <div class="clear"></div>    
-        <div id="section-c">
-            <div class="main">
-                <h1>Lorem ipsum</h1>
-                <h2>Phasellus sagittis malesuada. Ut tempus orci interdum rhoncus, dui eu mauris.</h2>
-                <img src="" alt="" />
-            </div> 
-            <div class="small-img">  
+                    <div class="card">
+                        <img src="img/img_1.jpeg" alt="" >
+                        <div class="card-content">
+                            <h3 class="card-title">Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt a ex sed suscipit. Aliquam a condimentum neque. Suspendisse tempor feugiat dui. Sed ac eros nunc. Morbi cursus consequat quam et porttitor. Integer iaculis rutrum aliquam. Aliquam venenatis, urna vitae sodales fringilla, tortor erat hendrerit.</p>
+                        </div>
+                    </div>   
+                </li>  
+                <li>
+                    <div class="card">
+                        <img src="img/img_2.jpeg" alt="" >
+                        <div class="card-content">
+                            <h3 class="card-title">Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt a ex sed suscipit. Aliquam a condimentum neque. Suspendisse tempor feugiat dui. Sed ac eros nunc. Morbi cursus consequat quam et porttitor. Integer iaculis rutrum aliquam. Aliquam venenatis, urna vitae sodales fringilla, tortor erat hendrerit.</p>
+                        </div>
+                    </div>   
+                </li> 
+                <li>
+                    <div class="card">
+                        <img src="img/img_3.jpeg" alt="" >
+                        <div class="card-content">
+                            <h3 class="card-title">Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt a ex sed suscipit. Aliquam a condimentum neque. Suspendisse tempor feugiat dui. Sed ac eros nunc. Morbi cursus consequat quam et porttitor. Integer iaculis rutrum aliquam. Aliquam venenatis, urna vitae sodales fringilla, tortor erat hendrerit.</p>
+                        </div>
+                    </div>   
+                </li> 
+            </ul>  
+        </section>
+        
+        <!-- Section C -->
+        <section id="section-c" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">We handle all of your digital needs</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt a ex sed suscipit. Aliquam a condimentum neque. Suspendisse tempor feugiat dui. Sed ac eros nunc. Morbi cursus consequat quam et porttitor. Integer iaculis rutrum aliquam.</p> 
             </div>
-        </div>
-    </main>  
-    <footer id="main-footer">
-        <div class="footer">Indonesia 2018</div>
-        <div class="footer">Project by klakali</div>
-    </footer>  
-</body>
+        </section>
+        
+        <!-- Section D -->
+        <section id="section-d" class="grid">
+            <div class="box">
+                <h2 class="content-title">Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt a ex sed suscipit. Aliquam a condimentum neque. Suspendisse tempor feugiat dui.</p>
+                <a href=""><p>contact@sasolutions.com</a>     
+            </div>
+            <div class="box">
+                <h2 class="content-title">About Our Company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt a ex sed suscipit. Aliquam a condimentum neque. Suspendisse tempor feugiat dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>     
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+        <div>Software Academy Solutions</div>
+        <div>Project by klakali</div>
+    </footer>
 </html>
